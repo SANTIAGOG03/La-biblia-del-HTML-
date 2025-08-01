@@ -1,1 +1,216 @@
 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La biblia del html</title>
+  </head>
+  <body>
+    <h1>QUE ES HTML</h1>
+    <p>
+      Palabras mas palabras menos, html es un lenguaje de hipermarcado que ayuda
+      a definir la estructura de un sitio web con ayuda a separar como iran los
+      contenidos y como se distribuiran en el mismo sitio web
+    </p>
+    <!--toda la informacion que escriba la escribire sobre parrafos y se diferenciaran entre tematicas gracias a los titulos  -->
+    <h1>ANATOMIA DE UN ELEMENTO</h1>
+    <P>siempre tendra una etiqueta de apertura y una etiqueta de cierre /  adicional tiene un contenido y en algunos casos atrbutos </P>
+    <h1>PUEDES ANIDAR ETIQUETAS UNA DENTRO DE LA OTRA</h1>
+  <p>esto quiere decir que dentro de una etiqueta puedes usar otra por ejemplo:</p>
+    <span>mi papa me <mark>ama</mafrk></span>
+  <p>como ves esto hace que dentro de la etiqueta misma se agregue otra adicional para darle el marcado que necesitemos darle esto nos puede servir en innumerables casos </p>
+    <h1>PUEDEN EXISTIR ELEMENTOS SIN CONTENIDO EL EJEMPLO MAS COMUN EL DE UNA IMAGEN </h1>
+    <p>por ejemplo mira esta etiqueta de imagen que trae una imagen de una web</p>
+<img src="https://thumbs.dreamstime.com/z/maraña-de-líneas-desentrañar-el-camino-concepto-psicológico-resolución-problemas-mentales-trapo-caótico-simplificación-del-254157096.jpg?ct=jpeg" alt="imagen randy" width="200px" height="200px">
+    <p>como ves esta etiqueta no tiene contenido pero si tiene atributos</p>
+    <h1>ANATOMIA DE UN DOCUMENTO HTML</h1>
+    <P>a continuacion mostrare las partes o que dividen internamente cada seccion de una pagina web</P>
+    <ul>antes de la etiqueta head encontraremos lo siguiente:
+      <br>
+      <li>etiqueta !DOCTYPE html: Usada para definir que el documento estara en html anteriormente debido que se usaban lenguajes o otras versiones diferntes a html5 se debia especificar la deseada a usar</li>
+      <li>html es la etiqueta raiz que encerrara todas las demas etiquetas como puedes notar al final siempre de tu codigo estara</li>
+    </ul>
+    <h1>ETIQUETA HEAD </h1>
+
+    <P>dentro de esta etiqueta padre tendremos otras etiquetas que aun no las vera el usuario final nos ayudaran al funcionaiento y estilo de la pagina web</P>
+    <ul>dentro de la etique head podremos encontrar etiquetas tales como 
+      <li>meta charset="utf-8": Mediante esta etiqueta podremos definir que tipo de caracteres manejara la pagina web, en este caso para mi en colombia que uso el español con tildes el tipo de caracter es el utf 8</li>
+      <li>title esta etique nos ayudara con seo que basicamente es el titulo que tendra nuestra pagina web, pero a la vez esta ayudara a que cuando se realice una busqueda similar el usuario interesado pueda encontranos mas facil </li>
+    </ul>
+
+    <p>adicional a estas etiquetas encontraremos la etique link que nos ayudara a enlazar nuestro archivo html con los otros archivos css y js y arvhios externos a los de mi carpeta, tambien estara la etiqueta author o keywords que igual que title serviran para ayudar al seo y que el usuario pueda encontranos </p>
+
+    
+<H1>y luego tendremos la etiqueta body </H1>
+<p> la cual es el cuerpo donde depositaremos toda la estrucura de la pagina web mas adelante explicare header y footer que son otras subsecciones dentro del mismo body pero aca ira depositado todo el contenido en general</p>
+
+    <H1> A CONTINUACION EMPEZARE A PONER ETIQUETAS JUNTO CON EL EJEMPLO</H1>
+
+
+    <H3>ETIQUETA IMG</H3>
+    <p>con ella traeremos las imagenes que queremos depositar en el sitio puedes traaer su direccion o source de forma local o exterior dentro de esta encontrarmeos le atributo source donde colocaremos la ruta de la imagen y alt que es un nombre clave o informacion clave que nos ayude a identificar de que es la imagen dado caso que no cargue o la ruta deje de servir </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bE4WYFZ9E4QP4k4d9r7fMKLSO2CKW2pl3g&s" alt="loritos">
+
+    <h3>ENCABEZADOS</h3>
+    <p>Los defino como la etiqueta de los titulos tendremos entre h1 hasta h6 siendo el primero el mas grande y el ultimo el mas pequeño ejemplo a continuacion:</p>
+
+    <h1>santiago</h1>
+    <h2>santiago</h2>
+    <h3>santiago</h3>
+    <h4>santiago</h4>
+    <h5>santiago</h5>
+        <h6>santiago</h6>
+
+    <h3>PARRAFOS</h3>
+    <p> literalmente es a etiqueta que estoy usando se usa para encerrar parrafos de texto</p>
+
+  <h3>listas</h3>
+<p>dentro de estas listas encontraremos liostas ordenadas y listas no ordenadas a usaremos ul para lista no ordenada y ol para lista ordenada</p> 
+    <p>ejemplo a continuacion:</p>
+    <ul>no ordenada
+    <li>platano</li>
+    <li>manzana</li>
+    </ul>
+
+    <br>
+    <ol>ordenada
+    <li>platano</li>
+    <li>manzana</li>
+    </ol>
+
+  <h3>vinculos</h3>
+  <p>usaremos la etiqueta a esta nos permitira colocar un contenido y un direccionador hacia donde ira</p>
+
+    <a href="https://www.youtube.com/watch?v=Fy5C-bzi59Q">temazo asi bien koreano bien gay</a>
+
+<H1>ATRITUBUTOS BOOLEANOS</H1>
+<P>Nos podremos entontrar con atributos sin valores o con valores y no quiere decir que sean incorrectos</P>
+<h3>ENFATIZAR EN HTML</h3>
+    <p>usualmente cuando hablamos queremos enfatizar ciertas palabras dandole un distinto sonido o una acentuacion lo mas comun, en html lo hacemos usando la cursiva dado caso no es lo mismo:</p>
+    <p>estas bien</p>
+    <p>estas <em>bien</em></p>
+    <p>podemos notar como se siente diferente se entiende otro aire en la palabra cuando queremos dar ese cambio de sentido a la oracion usaremos la cursiva</p>
+
+    <h3>Strong</h3>
+  <p>esta etiqueta es usada para enfatizar una o varias palabras fuertes normalmente es cuando en un texto lo subrayamos con negrita</p>
+    <p>ejemplo:</p>
+<p>el liquido que hay dentro de un termometro es <strong>altamente toxico</strong></p>
+    <p>podemos notar como la palabra se nota que nos quiere mostrar que queremos que nos concentremos en este se siente casi como una advertencia</p>
+
+<h3>etiquetas i b y u</h3>
+    <p>son etiquetas que hoy en dia en html5 no son usadas o no deberian ser usadas puesto que aunque realzan importancia no aportan nada a la semantica como lo hacen las anteriormente mencionadas es por esto que antes de pensar en estas puedes pensar en usar mark, em , strong, entre otras</p>
+
+    <h3>LISTAS DE DESCRIPCION</h3>
+    <p>ya te hable de las listas tanto ordenadas como las desordenadas ahora hablare de las listas de descripcion usando las etiquetas dl y dt y dd</p>
+    <p> te lo explicare asi dl abre y cierra la lista dt es el titulo de lo que hablaremos digamos natilla, y dd es la descripcion de como desarrollaremos la natilla o que en festividades se usa comunmente a continuacion un ejemplo:</p>
+
+    <dl>
+      <dt>
+        natilla
+      </dt>
+      <dd>
+        es un postre que se hace con leche y huevos y se usa en festividades
+      </dd>
+    </dl>
+
+  <p>entiende dt como el termino y dd las descripciones puedes usar un solo termino, pero este puede tener cuantas descripciones quieras por ejemplo</p>
+
+    <dl>
+  <dt>
+    natilla
+  </dt>
+      <dd>
+        es un postre que se hace con leche y huevos y se usa en festividades
+      </dd>
+<dd> puedes acompañarlo con salsa de mora y es delicioso</dd>
+    </dl>
+
+    <h1>ESTRUCTURACION DE UN DOCUMENTO</h1>
+<img src="https://www.mastermarketing-valencia.com/marketing-digital/wp-content/uploads/sites/1/2022/04/estructura-web.jpg" alt="estrucutra de un sitio web" width="500px" height="200px">
+    <p>como te dije anteriormente de forma muy superficial html se parte entre el head y el body pero dentro del body como te dije se sigue una estructuracion esta se basa en lo siguiente</p>
+
+    <ol>
+<li>encabezado o header</li>
+<li>barra de navegacion o nav</li>
+<li>contenido principal o main</li>
+<li>barra lateral o aside</li>
+<li>pie de pagina o footer</li>
+    </ol>
+<p>a continuacion te mostrare un pequeño ejemplo</p>
+    <header>
+      <h1>header</h1>
+    </header>
+    <nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">SOBRE MI</a></li>
+<li><a href="#">EXPERIENCIA</a></li>
+<li><a href="#">ESTUDIOS</a></li>
+<li><a href="#">CONTACTAME</a></li>
+</ul>
+    </nav>
+
+    <main>
+
+    <article>
+  <h2>anacondas</h2>
+      <p>   Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
+        ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut
+        gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
+        dolor.</p>
+      <p>
+        Pelientesque auctor nisi id magna consequat sagittis. Curabitur
+        dapibus, enim sit amet elit pharetra tincidunt feugiat nist
+        imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed
+        odio eros.
+      </p>
+      </article>
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well…</a></li>
+        </ul>
+      </aside>
+    
+      </main>
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+    <p>como puedes notar la estructura es muy clara y facil de entender</p>
+
+    <p> ahora bien te expicare en que momento se usa cada elemento de seccion</p>
+
+    <h3>main</h3>
+  <p>  usado para contenido exclusivo que se usara en esta pagina web, se usa siempre dentro del body y sera usado una sola vez</p>
+    <h3>article</h3>
+    <p>usado para bloques de contenido que no necesariamente tiene que tener sentido con toda la pagina web por ejemplo una sola publicacion de blog</p>
+
+    <h3>Section</h3>
+    <p>muy similar a article, este se usa para agrupar toda la informacion de un solo tipo en el sitio web cada seccion se recomienda iniciarla con un encabezado</p>
+    <h3>aside</h3>
+    <p>contiene contenido que no esta directamente relacionado con el contenido principal pero puede ayudar a proporcionar informacion adicional por ejemplo un  glosario, biografias o enlaces que puedan interesar</p>
+
+
+    <h3>SALTOS DE LINEA Y REGLAS HORIZONTALES</h3>
+    <P>usado para generar un salto entre lineas se usa cuando quieres que el texto no ocupe todo el reglon son diferentes las razones por las que se puede usar pero un ejemplo seria en una poesia o copla</P>
+
+    <p>
+      El hijo de rana <br>
+      rin rin renacuajo <br>
+      salio esta mañana <br>
+     muy tieso muy majo <br>
+    </p>
+
+    <p>como puedes notar da otro sentido al texto entendemos que se tiene que leer entre lineas</p>
+
+    <p>por otro lado hr crea una linea horizontal que nos permite indicar un cambio tematico en el texto por ejemplo de escena o de tema </p>
+    
+  </body>
+</html>
